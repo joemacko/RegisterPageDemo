@@ -1,19 +1,68 @@
+body {
+    background-color: rgb(120, 233, 241);
+}
+
 nav {
-    background-color: lightblue;
     position: fixed;
+    background-color: white;
     top: 0px;
     left: 0px;
     width: 100vw;
     height: 50px;
+    border-bottom: 2px solid rgb(197, 197, 197);
+    border-style: outset;
+}
+
+button {
+    background-color: rgb(67, 142, 167);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 nav ul li {
     display: inline-block;
-    color: blue;
     font-weight: bold;
     margin-right: 20px;
 }
 
 nav ul {
     text-align: right;
+}
+
+img {
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+.signup-form {
+    width: 35%;
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    border: 2px solid rgb(197, 197, 197);
+    border-style: outset;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px 0px 10px 0px;
+}
+
+.submit-button {
+    width: 80%;
+    padding: 10px;
 }
